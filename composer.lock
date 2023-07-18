@@ -1,9 +1,14 @@
 {
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "5a748711dcaa543b7494c0cefe0838e2",
     "packages": [
         {
             "name": "claviska/simpleimage",
             "version": "4.0.5",
-            "version_normalized": "4.0.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/claviska/SimpleImage.git",
@@ -24,9 +29,7 @@
                 "laravel/pint": "^1.5",
                 "phpstan/phpstan": "^1.10"
             },
-            "time": "2023-06-05T14:32:39+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-0": {
                     "claviska": "src/"
@@ -54,12 +57,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../claviska/simpleimage"
+            "time": "2023-06-05T14:32:39+00:00"
         },
         {
             "name": "composer/semver",
             "version": "3.3.2",
-            "version_normalized": "3.3.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/semver.git",
@@ -78,14 +80,12 @@
                 "phpstan/phpstan": "^1.4",
                 "symfony/phpunit-bridge": "^4.2 || ^5"
             },
-            "time": "2022-04-01T19:23:25+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-main": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Composer\\Semver\\": "src"
@@ -138,12 +138,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "./semver"
+            "time": "2022-04-01T19:23:25+00:00"
         },
         {
             "name": "filp/whoops",
             "version": "2.15.2",
-            "version_normalized": "2.15.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
@@ -168,14 +167,12 @@
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
                 "whoops/soap": "Formats errors as SOAP responses"
             },
-            "time": "2023-04-12T12:00:00+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "2.7-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Whoops\\": "src/Whoops/"
@@ -212,12 +209,112 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../filp/whoops"
+            "time": "2023-04-12T12:00:00+00:00"
+        },
+        {
+            "name": "getkirby/cms",
+            "version": "3.9.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/getkirby/kirby.git",
+                "reference": "6b5dda600472b59a3a779f7e6b8e9e130cc414a1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/getkirby/kirby/zipball/6b5dda600472b59a3a779f7e6b8e9e130cc414a1",
+                "reference": "6b5dda600472b59a3a779f7e6b8e9e130cc414a1",
+                "shasum": ""
+            },
+            "require": {
+                "claviska/simpleimage": "4.0.5",
+                "composer/semver": "3.3.2",
+                "ext-ctype": "*",
+                "ext-curl": "*",
+                "ext-dom": "*",
+                "ext-filter": "*",
+                "ext-hash": "*",
+                "ext-iconv": "*",
+                "ext-json": "*",
+                "ext-libxml": "*",
+                "ext-mbstring": "*",
+                "ext-openssl": "*",
+                "ext-simplexml": "*",
+                "filp/whoops": "2.15.2",
+                "getkirby/composer-installer": "^1.2.1",
+                "laminas/laminas-escaper": "2.12.0",
+                "michelf/php-smartypants": "1.8.1",
+                "php": ">=8.0.0 <8.3.0",
+                "phpmailer/phpmailer": "6.8.0",
+                "symfony/polyfill-intl-idn": "1.27.0",
+                "symfony/polyfill-mbstring": "1.27.0",
+                "symfony/yaml": "5.4.23"
+            },
+            "replace": {
+                "symfony/polyfill-php72": "*"
+            },
+            "suggest": {
+                "ext-PDO": "Support for using databases",
+                "ext-apcu": "Support for the Apcu cache driver",
+                "ext-exif": "Support for exif information from images",
+                "ext-fileinfo": "Improved mime type detection for files",
+                "ext-intl": "Improved i18n number formatting",
+                "ext-memcached": "Support for the Memcached cache driver",
+                "ext-zip": "Support for ZIP archive file functions",
+                "ext-zlib": "Sanitization and validation for svgz files"
+            },
+            "type": "kirby-cms",
+            "extra": {
+                "unused": [
+                    "symfony/polyfill-intl-idn"
+                ]
+            },
+            "autoload": {
+                "files": [
+                    "config/setup.php",
+                    "config/helpers.php"
+                ],
+                "psr-4": {
+                    "Kirby\\": "src/"
+                },
+                "classmap": [
+                    "dependencies/"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "proprietary"
+            ],
+            "authors": [
+                {
+                    "name": "Kirby Team",
+                    "email": "support@getkirby.com",
+                    "homepage": "https://getkirby.com"
+                }
+            ],
+            "description": "The Kirby 3 core",
+            "homepage": "https://getkirby.com",
+            "keywords": [
+                "cms",
+                "core",
+                "kirby"
+            ],
+            "support": {
+                "email": "support@getkirby.com",
+                "forum": "https://forum.getkirby.com",
+                "issues": "https://github.com/getkirby/kirby/issues",
+                "source": "https://github.com/getkirby/kirby"
+            },
+            "funding": [
+                {
+                    "url": "https://getkirby.com/buy",
+                    "type": "custom"
+                }
+            ],
+            "time": "2023-06-07T12:10:15+00:00"
         },
         {
             "name": "getkirby/composer-installer",
             "version": "1.2.1",
-            "version_normalized": "1.2.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/getkirby/composer-installer.git",
@@ -235,12 +332,10 @@
             "require-dev": {
                 "composer/composer": "^1.8 || ^2.0"
             },
-            "time": "2020-12-28T12:54:39+00:00",
             "type": "composer-plugin",
             "extra": {
                 "class": "Kirby\\ComposerInstaller\\Plugin"
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Kirby\\": "src/"
@@ -262,12 +357,11 @@
                     "type": "custom"
                 }
             ],
-            "install-path": "../getkirby/composer-installer"
+            "time": "2020-12-28T12:54:39+00:00"
         },
         {
             "name": "laminas/laminas-escaper",
             "version": "2.12.0",
-            "version_normalized": "2.12.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/laminas/laminas-escaper.git",
@@ -295,9 +389,7 @@
                 "psalm/plugin-phpunit": "^0.17.0",
                 "vimeo/psalm": "^4.22.0"
             },
-            "time": "2022-10-10T10:11:09+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Laminas\\Escaper\\": "src/"
@@ -327,12 +419,11 @@
                     "type": "community_bridge"
                 }
             ],
-            "install-path": "../laminas/laminas-escaper"
+            "time": "2022-10-10T10:11:09+00:00"
         },
         {
             "name": "league/color-extractor",
             "version": "0.4.0",
-            "version_normalized": "0.4.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/thephpleague/color-extractor.git",
@@ -358,9 +449,7 @@
             "suggest": {
                 "ext-curl": "To download images from remote URLs if allow_url_fopen is disabled for security reasons"
             },
-            "time": "2022-09-24T15:57:16+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "League\\ColorExtractor\\": "src"
@@ -391,12 +480,11 @@
                 "issues": "https://github.com/thephpleague/color-extractor/issues",
                 "source": "https://github.com/thephpleague/color-extractor/tree/0.4.0"
             },
-            "install-path": "../league/color-extractor"
+            "time": "2022-09-24T15:57:16+00:00"
         },
         {
             "name": "michelf/php-smartypants",
             "version": "1.8.1",
-            "version_normalized": "1.8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/michelf/php-smartypants.git",
@@ -411,9 +499,7 @@
             "require": {
                 "php": ">=5.3.0"
             },
-            "time": "2016-12-13T01:01:17+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-0": {
                     "Michelf": ""
@@ -448,12 +534,11 @@
                 "issues": "https://github.com/michelf/php-smartypants/issues",
                 "source": "https://github.com/michelf/php-smartypants/tree/1.8.1"
             },
-            "install-path": "../michelf/php-smartypants"
+            "time": "2016-12-13T01:01:17+00:00"
         },
         {
             "name": "phpmailer/phpmailer",
             "version": "v6.8.0",
-            "version_normalized": "6.8.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/PHPMailer/PHPMailer.git",
@@ -491,9 +576,7 @@
                 "symfony/polyfill-mbstring": "To support UTF-8 if the Mbstring PHP extension is not enabled (^1.2)",
                 "thenetworg/oauth2-azure": "Needed for Microsoft XOAUTH2 authentication"
             },
-            "time": "2023-03-06T14:43:22+00:00",
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "PHPMailer\\PHPMailer\\": "src/"
@@ -531,12 +614,11 @@
                     "type": "github"
                 }
             ],
-            "install-path": "../phpmailer/phpmailer"
+            "time": "2023-03-06T14:43:22+00:00"
         },
         {
             "name": "psr/log",
             "version": "3.0.0",
-            "version_normalized": "3.0.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
@@ -551,14 +633,12 @@
             "require": {
                 "php": ">=8.0.0"
             },
-            "time": "2021-07-14T16:46:02+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
                     "dev-master": "3.x-dev"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Psr\\Log\\": "src"
@@ -584,38 +664,35 @@
             "support": {
                 "source": "https://github.com/php-fig/log/tree/3.0.0"
             },
-            "install-path": "../psr/log"
+            "time": "2021-07-14T16:46:02+00:00"
         },
         {
             "name": "symfony/deprecation-contracts",
-            "version": "v2.5.2",
-            "version_normalized": "2.5.2.0",
+            "version": "v3.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/deprecation-contracts.git",
-                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66"
+                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
-                "reference": "e8b495ea28c1d97b5e0c121748d6f9b53d075c66",
+                "url": "https://api.github.com/repos/symfony/deprecation-contracts/zipball/7c3aff79d10325257a001fcf92d991f24fc967cf",
+                "reference": "7c3aff79d10325257a001fcf92d991f24fc967cf",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=8.1"
             },
-            "time": "2022-01-02T09:53:40+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-main": "2.5-dev"
+                    "dev-main": "3.4-dev"
                 },
                 "thanks": {
                     "name": "symfony/contracts",
                     "url": "https://github.com/symfony/contracts"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "function.php"
@@ -638,7 +715,7 @@
             "description": "A generic function and convention to trigger deprecation notices",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/deprecation-contracts/tree/v2.5.2"
+                "source": "https://github.com/symfony/deprecation-contracts/tree/v3.3.0"
             },
             "funding": [
                 {
@@ -654,12 +731,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/deprecation-contracts"
+            "time": "2023-05-23T14:45:45+00:00"
         },
         {
             "name": "symfony/polyfill-ctype",
             "version": "v1.27.0",
-            "version_normalized": "1.27.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-ctype.git",
@@ -680,7 +756,6 @@
             "suggest": {
                 "ext-ctype": "For best performance"
             },
-            "time": "2022-11-03T14:55:06+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -691,7 +766,6 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -739,12 +813,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-ctype"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-intl-idn",
             "version": "v1.27.0",
-            "version_normalized": "1.27.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-idn.git",
@@ -764,7 +837,6 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "time": "2022-11-03T14:55:06+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -775,7 +847,6 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -829,12 +900,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-idn"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-intl-normalizer",
             "version": "v1.27.0",
-            "version_normalized": "1.27.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-intl-normalizer.git",
@@ -852,7 +922,6 @@
             "suggest": {
                 "ext-intl": "For best performance"
             },
-            "time": "2022-11-03T14:55:06+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -863,7 +932,6 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -916,12 +984,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-intl-normalizer"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
             "version": "v1.27.0",
-            "version_normalized": "1.27.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
@@ -942,7 +1009,6 @@
             "suggest": {
                 "ext-mbstring": "For best performance"
             },
-            "time": "2022-11-03T14:55:06+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -953,7 +1019,6 @@
                     "url": "https://github.com/symfony/polyfill"
                 }
             },
-            "installation-source": "dist",
             "autoload": {
                 "files": [
                     "bootstrap.php"
@@ -1002,12 +1067,11 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/polyfill-mbstring"
+            "time": "2022-11-03T14:55:06+00:00"
         },
         {
             "name": "symfony/yaml",
             "version": "v5.4.23",
-            "version_normalized": "5.4.23.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/yaml.git",
@@ -1033,12 +1097,10 @@
             "suggest": {
                 "symfony/console": "For validating YAML files using the lint command"
             },
-            "time": "2023-04-23T19:33:36+00:00",
             "bin": [
                 "Resources/bin/yaml-lint"
             ],
             "type": "library",
-            "installation-source": "dist",
             "autoload": {
                 "psr-4": {
                     "Symfony\\Component\\Yaml\\": ""
@@ -1080,9 +1142,18 @@
                     "type": "tidelift"
                 }
             ],
-            "install-path": "../symfony/yaml"
+            "time": "2023-04-23T19:33:36+00:00"
         }
     ],
-    "dev": true,
-    "dev-package-names": []
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": [],
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.0.0 <8.3.0"
+    },
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
 }
