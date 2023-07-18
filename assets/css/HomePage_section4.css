@@ -1,0 +1,113 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;400&family=Dancing+Script:wght@500;600&display=swap");
+* {
+  --sec2FontColor: #ffffff;
+  --hover: #c29de8;
+  --press: #ae73ea;
+  --meetColor: #4c6b5f;
+
+  /* border: red solid 2px; */
+
+}
+
+.HM_section4 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  position: absolute;
+  width: 100%;
+  height: 909px;
+  top: 2635px;
+  /* border: red solid 2px; */
+  overflow: hidden;
+}
+
+.HM_4_content {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  /* border: green solid 2px; */
+  width: 100%;
+  height: 100%;
+  /* top: 200px; */
+}
+.HM_4_p1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 741px;
+  height: 144px;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-size: 120px;
+  /* left: 0; */
+  top: 24px;
+  color: var(--meetColor);
+}
+
+.HM_4_p2 {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 1216px;
+    height: 60px;
+    font-family: "Barlow Condensed";
+  font-weight: 400;
+  font-size: 30px;
+  top: 200px;
+  color: var(--meetColor);
+  text-align: center;
+}
+
+
+
+.HM_4_teamImg {
+  position: absolute;
+
+  width: 932px;
+  height: 611.99px;
+  top: 302.6px;
+  z-index: 2;
+}
+.HM_4_ImgBG {
+  position: absolute;
+  width: 743.05px;
+  height: 784.28px;
+  top: 237px;
+  /* z-index: 100; */
+}
+
+.HM_4_learnBtn {
+  position: absolute;
+  width: 378px;
+  height: 95px;
+  font-family: "Barlow Condensed";
+  font-weight: 500;
+  font-size: 46px;
+  top: 771px;
+  color: var(--meetColor);
+  background-color: var(--sec2FontColor);
+  border: 8px var(--hover) solid;
+  border-radius: 100px;
+  /* padding: 20px 80px; */
+  z-index: 3;
+}
+
+.HM_4_learnBtn:hover {
+  background-color: var(--hover);
+  border-color: var(--hover);
+  color: var(--sec2FontColor);
+}
+
+.HM_4_learnBtn:active {
+  background-color: var(--press);
+  border-color: var(--press);
+  color: var(--sec2FontColor);
+}
