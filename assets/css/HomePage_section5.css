@@ -1,0 +1,102 @@
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Dancing+Script:wght@500;600&display=swap");
+
+@import url("https://fonts.cdnfonts.com/css/aileron");
+
+* {
+  --sec2FontColor: #ffffff;
+  --hover: #c29de8;
+  --press: #ae73ea;
+}
+
+.HM_section5 {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* justify-content: center; */
+  position: absolute;
+  width: 100%;
+  height: 909px;
+  /* border: red solid 2px; */
+  top: 3541px;
+}
+
+.HM_sec5_content {
+  margin: 0;
+  padding: 0;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 1440px;
+  height: 100%;
+  /* top: 200px; */
+  background-color: var(--hover);
+}
+.HM_sec5_p1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 469px;
+  height: 144px;
+  font-family: "Barlow Condensed";
+  font-weight: 600;
+  font-size: 120px;
+  top: 218px;
+  color: var(--sec2FontColor);
+}
+
+.HM_sec5_p_container {
+  margin: 0;
+  padding: 0;
+  /* border: green solid 2px; */
+  position: absolute;
+  width: 763px;
+  height: 144px;
+  font-family: "Aileron";
+  font-weight: 400;
+  font-size: 30px;
+  top: 416px;
+  color: var(--sec2FontColor);
+  text-align: center;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+
+}
+.HM_sec5_p_container p{
+  margin: 0;
+  padding: 0;
+}
+
+.HM_sec5_writeBtn {
+  position: absolute;
+  width: 390px;
+  height: 95px;
+  font-family: "Barlow Condensed";
+  font-weight: 700;
+  font-size: 46px;
+  top: 640px;
+  color: var(--sec2FontColor);
+  background-color: inherit;
+  border: 8px var(--sec2FontColor) solid;
+  border-radius: 100px;
+  /* padding: 20px 80px; */
+  z-index: 3;
+}
+
+.HM_sec5_writeBtn:hover {
+  background-color: var(--sec2FontColor);
+  border-color: var(--sec2FontColor);
+  color: var(--press);
+}
+/* 
+.HM_sec5_writeBtn:active {
+  background-color: var(--press);
+  border-color: var(--press);
+  color: var(--sec2FontColor);
+} */
