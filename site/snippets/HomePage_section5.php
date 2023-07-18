@@ -6,7 +6,7 @@
 <section class="HM_section5">
 
 
-    <div class="content">
+    <div class="HM_sec5_content">
 
         <p class="HM_sec5_p1">Let´s chat</p>
         <p class="HM_sec5_p2">Do you have questions regarding our organisation or our projects? Would you like to join
