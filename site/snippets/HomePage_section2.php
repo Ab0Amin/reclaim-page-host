@@ -1,8 +1,3 @@
-<?= css('../assets/css/homePageSec2.css') ?>
-
-
-
-
 <section class="section2">
 
     <div class="video-background">

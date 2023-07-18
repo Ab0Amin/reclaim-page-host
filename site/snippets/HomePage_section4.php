@@ -1,8 +1,3 @@
-<?= css('../assets/css/homePage_section4.css') ?>
-
-
-
-
 <section class="HM_section4">
 
 
