@@ -31,7 +31,7 @@
     <h1><?= $page->title() ?></h1>
     <?= $page->text() ?>
 
-    <?php snippet('HomePage_section2') ?>
+    <?php snippet('HomePage_section5') ?>
 
 
 </body>
