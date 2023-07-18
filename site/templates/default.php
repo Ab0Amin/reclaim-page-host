@@ -8,6 +8,7 @@
     <title><?= $site->title() ?></title>
     <link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;700&display=swap" rel="stylesheet">
     <?= css('../assets/css/index.css') ?>
+    <?= css('../assets/css/HomePage_section4.css') ?>
 </head>
 
 <body>
