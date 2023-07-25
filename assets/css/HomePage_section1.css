@@ -1,0 +1,77 @@
+.main-title {
+    width: 917px;
+  height: 144px;
+  right: 100px;
+   color: #4C6B5F;
+  text-align: center;
+  font-family: "Barlow Condensed", sans-serif;
+  font-size: 7.5rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  letter-spacing: 0.3375rem;
+  }
+  
+  .section-one {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .main-title {
+    position: relative;
+    z-index: 1;
+  }
+  
+  .reclaim-logo {
+    position: absolute;
+    top: 0;
+    z-index: -1;
+    width: 608px;
+  height: 600px;
+  left: 700px;
+  
+  }
+  
+  .section-one .paragraph {
+    position: absolute;
+    color: #4C6B5F;
+    width: 829px;
+  height: 160px;
+  top: 350px;
+  left: 80px;
+    font-family: "Aileron";
+  font-size: 30px;
+  font-weight: 400;
+  line-height: 40px;
+  letter-spacing: 0.045em;
+  text-align: left;
+  }
+  
+  .learn-more {
+    position: absolute;
+   width: 378px;
+  height: 95px;
+  top: 621px;
+  left: 80px;
+  padding: 20px 80px 20px 80px;
+  border-radius: 100px;
+  border: 8px solid #C29DE8;
+  gap: 10px;
+  background: #FFFFFF;
+  color: #4C6B5F;
+  font-family: "Barlow Condensed";
+  font-size: 46px;
+  font-weight: 500;
+  line-height: 40px;
+  }
+
+  .learn-more:hover {
+background: #C29DE8;
+color:#FFFFFF;
+  }
+
+  .learn-more:active {
+    background: #AE73EA;
+    border: 8px solid #AE73EA;
+  }

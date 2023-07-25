@@ -11,13 +11,14 @@
 </head>
 
 <body>
+
     <header class='header'>
         <div class='logo-div'>
             <a class='orgHome' href="<?= $site->url() ?>">
                 <h1><?= $site->title() ?></h1>
             </a>
             <a class='orgHome' href="<?= $site->url() ?>">
-                <p>ecofeminist alliance</p>
+                <p>Ecofeminist Alliance</p>
             </a>
         </div>
         <nav class='menu'>
@@ -28,14 +29,13 @@
             </ul>
         </nav>
     </header>
-    <h1><?= $page->title() ?></h1>
-    <?= $page->text() ?>
 
-
-
-    <?php snippet('HomePage_section2') ?>
-    <?php snippet('HomePage_section4') ?>
+    <?php snippet('HomePage_section1') ?>
     <?php snippet('HomePage_section5') ?>
+
+
+    <?php snippet('HomePage_section4') ?>
+    <?php snippet('HomePage_section2') ?>
 
 
 </body>

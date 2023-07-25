@@ -1,5 +1,9 @@
-Title: Home
+Title: HI, WE ARE RECLAIM
+
 ----
-Text: Welcome to Reclaim
+
+Text: We are a Berlin-based ecofeminist organisation adopting an intersectional approach to fight for gender equality and climate protection. We develop diverse projects to reclaim life, power and freedom.
+
 ----
+
 Uuid: zc1NZRFFo8YXS42B
