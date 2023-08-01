@@ -84,7 +84,7 @@
 }
 
 .HM_sec5_writeBtn {
-  /* position: absolute; */
+  position: absolute;
   width: 390px;
   height: 95px;
   font-family: "Barlow Condensed";
