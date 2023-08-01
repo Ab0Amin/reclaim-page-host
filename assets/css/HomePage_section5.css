@@ -78,6 +78,9 @@
   position: absolute;
   top: 640px;
   z-index: 3;
+  text-align: center;
+  width: 100%;
+  
 }
 
 .HM_sec5_writeBtn {

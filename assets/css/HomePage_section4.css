@@ -87,10 +87,12 @@
 }
 .HM_4_learna{
   position: absolute;
-  width: 378px;
   height: 95px;
   top: 771px;
   z-index: 3;
+  text-align: center;
+  width: 100%;
+  
 
 }
 .HM_4_learnBtn {
