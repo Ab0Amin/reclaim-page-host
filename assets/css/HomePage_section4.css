@@ -1,4 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;700;400&family=Dancing+Script:wght@500;600&display=swap");
+@import url("https://fonts.cdnfonts.com/css/aileron");
+
 * {
   --sec2FontColor: #ffffff;
   --hover: #c29de8;
@@ -6,7 +8,6 @@
   --meetColor: #4c6b5f;
 
   /* border: red solid 2px; */
-
 }
 
 .HM_section4 {
@@ -45,6 +46,7 @@
   width: 741px;
   height: 144px;
   font-family: "Barlow Condensed";
+  /* font-family: "aileron"; */
   font-weight: 700;
   font-size: 120px;
   /* left: 0; */
@@ -53,20 +55,20 @@
 }
 
 .HM_4_p2 {
-    margin: 0;
-    padding: 0;
-    position: absolute;
-    width: 1216px;
-    height: 60px;
-    font-family: "Barlow Condensed";
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 1216px;
+  height: 60px;
+  /* font-family: "Barlow Condensed"; */
+  font-family: "aileron";
+  
   font-weight: 400;
   font-size: 30px;
   top: 200px;
   color: var(--meetColor);
   text-align: center;
 }
-
-
 
 .HM_4_teamImg {
   position: absolute;
@@ -83,21 +85,24 @@
   top: 237px;
   /* z-index: 100; */
 }
-
-.HM_4_learnBtn {
+.HM_4_learna{
   position: absolute;
+  width: 378px;
+  height: 95px;
+  top: 771px;
+  z-index: 3;
+
+}
+.HM_4_learnBtn {
   width: 378px;
   height: 95px;
   font-family: "Barlow Condensed";
   font-weight: 500;
   font-size: 46px;
-  top: 771px;
   color: var(--meetColor);
   background-color: var(--sec2FontColor);
   border: 8px var(--hover) solid;
   border-radius: 100px;
-  /* padding: 20px 80px; */
-  z-index: 3;
 }
 
 .HM_4_learnBtn:hover {

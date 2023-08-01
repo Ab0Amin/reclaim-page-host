@@ -8,19 +8,29 @@
 
     <div class="HM_sec5_content">
 
-        <p class="HM_sec5_p1">Let´s chat</p>
+        <p class="HM_sec5_p1">
+            <?= $page->section5_text1() ?>
+
+        </p>
         <div class="HM_sec5_p_container">
-            <p>Do you have questions regarding our organisation or our projects?
+            <p>
+                <?= $page->section5_text2() ?>
 
             </p>
             <p>
+                <?= $page->section5_text3() ?>
 
-                Would you like to join us as a partner?
             </p>
 
         </div>
 
-        <button class=" HM_sec5_writeBtn">WRITE TO US</button>
+        <a class="HM_sec5_writeBtn_a" href="<?= $kirby->url('') ?>/contact">
+
+            <button class=" HM_sec5_writeBtn">
+                <?=  $page->section5_text4() ?>
+
+            </button>
+        </a>
     </div>
 
 

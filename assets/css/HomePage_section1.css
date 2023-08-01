@@ -75,3 +75,7 @@ color:#FFFFFF;
     background: #AE73EA;
     border: 8px solid #AE73EA;
   }
+
+  .bold-text {
+    font-weight: 600;
+  }

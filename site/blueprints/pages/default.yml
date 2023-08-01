@@ -8,8 +8,58 @@ columns:
         type: fields
         fields:
           text:
-            type: textarea
+            type: text
             size: huge
+          title:
+            label: Title
+            type: text
+          titleAppend:
+            label: Title Append
+            type: text
+          
+          
+          # section 2
+          section2_text1:
+            label: Section 2 Text 1
+            type: text
+          section2_text2:
+            label: Section 2 Text 2
+            type: text
+          section2_text3:
+            label: Section 2 Text 3
+            type: text
+          section2_text4:
+            label: Section 2 Text 4
+            type: text
+          section2_text5:
+            label: Section 2 Text 5
+            type: text
+          
+          # section4
+          section4_text1:
+            label: Section 4 Text 1
+            type: text
+          section4_text2:
+            label: Section 4 Text 2
+            type: text
+          section4_text3:
+            label: Section 4 Text 3
+            type: text
+
+# section5
+          section5_text1:
+            label: Section 5 Text 1
+            type: text
+          section5_text2:
+            label: Section 5 Text 2
+            type: text
+          section5_text3:
+            label: Section 5 Text 3
+            type: text
+
+          section5_text4:
+            label: Section 5 Text 4
+            type: text
   sidebar:
     width: 1/3
     sections:
@@ -18,4 +68,3 @@ columns:
         template: default
       files:
         type: files
-

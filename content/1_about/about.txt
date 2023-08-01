@@ -2,4 +2,67 @@ Title: About
 
 ----
 
+section1_title : ECOFEMINISM
+
+----
+section1_text1 : “Intersectional ecofeminism also underscores the importance of gender, race and class, interlinking feminist concerns with human oppressions within patriarchy and the exploitations of a natural environment that women are often more reliant upon but also its guardians in many cultural contexts.” — Fatimah Kelleher
+----
+
+section2_title : WHO WE ARE
+
+----
+
+section2_text_part1 : We are Reclaim - Ecofeminist Alliance, a Berlin-based organisation created in January 2023. 
+
+----
+
+section2_text_part2 : We are a group of friends from diverse backgrounds but gathered by one conviction:
+
+----
+
+section2_text_part3 : we need to dismantle the structural causes of exploitation systems, 
+
+----
+
+section2_text_part4 : which perpetuate climate change and sexist oppressions. 
+
+----
+
+section2_text_part5 : We see
+
+----
+
+section2_text_part6 :  patriarchal capitalism as the common denominator 
+ 
+
+----
+
+section2_text_part7 : of the systems that destroy our planet and oppress women and minorities. 
+
+
+----
+
+
+section2_text_part8: We are 
+
+----
+
+section2_text_part9 : environmental activists, intersectional and intercultural feminists. 
+
+
+----
+
+section2_text_part10 : We aim to
+
+----
+
+section2_text_part11 :  build together a fairer society 
+
+----
+
+section2_text_part12 : with a de-colonial, revolutionary, queer, antispecist, and non-violent approach.
+
+
+----
+
 Uuid: XpQE8tCKnw6EPR3r

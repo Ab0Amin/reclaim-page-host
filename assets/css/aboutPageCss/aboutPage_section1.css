@@ -1,0 +1,65 @@
+@import url("https://fonts.cdnfonts.com/css/aileron");
+@import url("https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@400;500;600;700&family=Dancing+Script:wght@500;600&display=swap");
+
+
+* {
+  --text_color_1: #4c6b5f;
+}
+
+.elop_img_about_sec1 {
+  width: 700px;
+  height: 919px;
+  position: absolute;
+  top: 159px;
+  left: 590px;
+  z-index: 0;
+
+}
+.elp {
+  width: 700px;
+  height: 919px;
+  position: absolute;
+  top: 159px;
+  left: 590px;
+  border: red 1px solid;
+  z-index: 0;
+}
+
+
+.rectangle_about_sec1 {
+  width: 612px;
+  height: 250px;
+  position: absolute;
+  top: 189px;
+  background-color: #eaddf7;
+  border-radius: 0px 40px 40px 0px;
+  left: 0;
+}
+
+.about_sec1_title {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    width: 513px;
+    height: 120px;
+    font-family: "Barlow Condensed";
+    font-weight: 600;
+    font-size: 100px;
+    top: 254px;
+    left: 464px;
+    color: var(--text_color_1);
+
+}
+.about_sec1_p1 {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  width: 835px;
+  height: 293px;
+  font-family: "Aileron";
+  font-weight: 400;
+  font-size: 30px;
+  top: 446px;
+  left: 316px;
+  color: var(--text_color_1);
+}

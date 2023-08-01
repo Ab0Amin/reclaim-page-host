@@ -10,12 +10,13 @@
     </div>
     <div class="content">
         <div></div>
-        <p class="p1">BERLIN’S FIRST ECOFEMINIST FESTIVAL</p>
-        <p class="p2">Seeding Freedom</p>
-        <p class="p3">Coming back in 2024 <span>Berlin</span></p>
+        <p class="p1"> <?= $page->section2_text1() ?>
+        </p>
+        <p class="p2"> <?= $page-> section2_text2()?></p>
+        <p class="p3"><?= $page-> section2_text3()?><span><?= $page-> section2_text4()?></span></p>
 
     </div>
-    <button class="learnBtn">LEARN MORE</button>
+    <button class="learnBtn"><?= $page-> section2_text5()?></button>
 
     </div>
 </section>
